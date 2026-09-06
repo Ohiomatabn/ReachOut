@@ -6,3 +6,8 @@ In many local communities, a massive disconnect exists between the populace and 
 
 <h2>The Solution: BridgeTech</h2>
 BridgeTech eliminates this friction by computerization and streamlining civic reporting. It transforms vague complaints into structured, trackable data tickets that ensure accountability on both sides.
+
+<h2>Value Proposition</h2>
+<b>For Citizens:</b> A voice that reaches decision-makers directly, ensuring local problems are seen and addressed without administrative runaround.
+
+<b>For Government:</b> Real-time data and actionable insights from the ground up, allowing ministries to allocate resources efficiently where they are needed most.
