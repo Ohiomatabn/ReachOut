@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@layer components {
+  .card {
+    @apply max-w-60 min-w-8 text-center shadow-xl p-4 rounded-sm;
+  }
+
+  .sta-card {
+    @apply text-center min-w-40 shadow-sm p-4 rounded-sm;
+  }
+}
+
+@layer base {
+  h2 {
+    @apply text-center py-8 font-bold text-3xl;
+  }
+  h4 {
+    @apply text-xl font-bold;
+  }
+  li {
+    @apply inline-block px-4;
+  }
+}
