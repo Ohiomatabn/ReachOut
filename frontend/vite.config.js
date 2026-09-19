@@ -1,7 +1,15 @@
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [react(), tailwindcss()],
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 100,
+      // Force Vite to watch files even if they are nested deep
+      ignored: ["!**/node_modules/**"],
+    },
+  },
+});
