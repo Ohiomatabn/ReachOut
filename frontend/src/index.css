@@ -7,11 +7,15 @@
 
 @layer components {
   .card {
-    @apply max-w-60 min-w-8 text-center shadow-xl p-4 rounded-sm;
+    @apply max-w-60 min-w-8 text-center shadow-sm p-4 rounded-sm;
   }
 
   .sta-card {
-    @apply text-center min-w-40 shadow-sm p-4 rounded-sm;
+    @apply text-center min-w-40 max-w-60 shadow-sm p-4 rounded-sm;
+  }
+
+  .btn {
+    @apply bg-blue-700 hover:bg-blue-800 rounded-sm hover:rounded-4xl cursor-pointer text-white;
   }
 }
 
