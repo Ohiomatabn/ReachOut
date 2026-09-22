@@ -15,7 +15,7 @@ function NavBar() {
           <li>
             <Link to="/admin-login">Admin</Link>
           </li>
-          <Link to="/admin-dashboard"></Link>
+          <Link to="/admin-dashboard">Dashboard</Link>
         </ul>
       </div>
     </nav>
