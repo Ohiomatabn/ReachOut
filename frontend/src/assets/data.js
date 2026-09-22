@@ -89,6 +89,21 @@ const issueData = [
     image:
       "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=900&q=80",
   },
+   {
+    id: 5,
+    title: "Overflowing refuse dump near clinic",
+    lga: "Okene",
+    category: "Sanitation & Waste",
+    status: "Resolved",
+    urgency: "Medium",
+    reporter: "Grace A.",
+    date: "2026-09-06",
+    location: "Beside the community clinic",
+    description:
+      "Uncollected waste has overflowed into the walkway, attracting pests and creating an unhealthy environment for patients.",
+    image:
+      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=80",
+  },
 ];
 
 export default issueData;
