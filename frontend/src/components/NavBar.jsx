@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="py-5">
+    <nav className="py-5 fixed left-0 right-0 top-0 bg-white">
       <div className="container flex justify-between items-center">
-        <div>ReachOut</div>
+        <Link to="/">ReachOut</Link>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -15,6 +15,7 @@ function NavBar() {
           <li>
             <Link to="/admin-login">Admin</Link>
           </li>
+          <Link to="/admin-dashboard"></Link>
         </ul>
       </div>
     </nav>
