@@ -8,8 +8,10 @@ function AdminLoginForm() {
     handleSubmit,
     formState: { isSubmitting, errors },
   } = useForm({
-    loginEmail: "",
-    loginPassword: "",
+    defaultValues: {
+      loginEmail: "",
+      loginPassword: "",
+    },
   });
 
   function signInAdmin(data) {
